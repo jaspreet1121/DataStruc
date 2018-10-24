@@ -59,7 +59,7 @@ public class HeapMax {
         }
     }
 
-    public HeapNode extractMin() {
+    public HeapNode extractMax() {
         //System.out.println(loca);
         HeapNode ans = h[0];
         h[0] = h[loca-1];
